@@ -43,6 +43,7 @@ class Snake {
 			
 		if(localStorage.getItem("high") == undefined) {
 			var highScore = localStorage.setItem("high", 1);
+			highScore = 1;
 		} else {
 			var highScore = localStorage.getItem("high");
 		}
